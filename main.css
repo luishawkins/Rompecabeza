@@ -1,8 +1,8 @@
 /*  mis estilos */
 
-#lienzo {
-    width: "600";
-    height: "600";
+.lienzo {
+    width: "25%";
+    height: "25%";
 }
 
 #entorno {
