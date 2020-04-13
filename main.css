@@ -1,0 +1,15 @@
+/*  mis estilos */
+
+#lienzo {
+    width: "600";
+    height: "600";
+}
+
+#entorno {
+    display: block;
+    margin: 0 auto;
+}
+
+#fondo {
+    opacity: 0.3;
+}
