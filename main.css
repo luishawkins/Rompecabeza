@@ -1,8 +1,9 @@
 /*  mis estilos */
 
-.lienzo {
+#lienzo {
     width: "25%";
     height: "25%";
+    margin-bottom: auto;
 }
 
 #entorno {

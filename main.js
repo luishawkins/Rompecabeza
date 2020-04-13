@@ -1,6 +1,19 @@
-/*Programacion de JavaScript*/
+var botton = document.getElementById("cambiar");
+botton.addEventListener("click", function() {
+    var capa = document.getElementById("cambiar");
+    capa.innerHTML = "no esta disponible volver a recargar la pagina";
 
-var piezas = document.getElementsByClassName('movil');
+}, false);
+
+function
+cambiar(obj) {
+    var img = obj.id; // Obtenemos la ID del objeto
+    var img_dos = document.getElementById(img).src // Obtenemos la ruta del objeto con ID obtenida atrás
+
+    document.getElementById('pic').src = img_dos; // Cambiamos la ruta de la imagen por la obtenida antes
+}
+
+var piezas = document.getElementsByClassName('mobil');
 
 var tamWidh = [134, 192, 134, 163, 134, 163, 134, 192, 134];
 var tamHeight = [163, 134, 163, 134, 192, 134, 163, 134, 163];
@@ -89,6 +102,6 @@ function testing() {
         }
     }
     if (bien_ubicada == 9) {
-        win.play();
+        audio.play();
     }
 }
